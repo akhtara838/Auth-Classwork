@@ -1,7 +1,7 @@
 "use strict";
-const Course = require("../models/course"),
-httpStatus = require("http-status-codes"),
-User = require("../models/user");
+const Course = require("../models/course");
+const httpStatus = require("http-status-codes");
+const User = require("../models/user");
 
 module.exports = {
     index: (req, res, next) => {
